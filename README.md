@@ -39,7 +39,7 @@ cd jira-comments-exporter
 
 ```properties
 jira.jsessionid=your-session-id
-jira.api.url=https://jira.marksandspencer.app/rest/api/latest/issue
+jira.api.url=your-jira-url followed by /rest/api/latest/issue
 ```
 
 Replace `your-session-id` with your `JSESSIONID` cookie value and adjust the Jira API URL as needed.
